@@ -1,0 +1,23 @@
+{
+  "name": "email-generator",
+  "version": "1.0.0",
+  "description": "A tool to generate html email.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xwartz/email-generator.git"
+  },
+  "keywords": [
+    "tool",
+    "email-generator"
+  ],
+  "author": "xwartz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xwartz/email-generator/issues"
+  },
+  "homepage": "https://github.com/xwartz/email-generator#readme"
+}

@@ -1,2 +1,2 @@
 # email-generator
-Generate HTML email tool
+A tool to generate html email.
