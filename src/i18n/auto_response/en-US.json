@@ -1,0 +1,17 @@
+{
+  "lang": "en-US",
+  "email_title": "AutoReply",
+  "thank_you_reaching_us": "Thank you for reaching out to us.",
+  "will_give_you_a_reply": "We have received your email and will give you a reply as soon as possible within 24 hours. Your patience is deeply appreciated. Meanwhile, you may browse through these articles which may help you solve the problems you are facing:",
+  "recommended_reading_link_1": "https://support.token.im/hc/en-us/articles/360003123953/?utm_source=imtoken-support&utm_medium=email&utm_campaign=auto-reply",
+  "recommended_reading_title_1": "• What if I forget my password?",
+  "recommended_reading_link_2": "https://support.token.im/hc/en-us/articles/115000906314/?utm_source=imtoken-support&utm_medium=email&utm_campaign=auto-reply",
+  "recommended_reading_title_2": "• Tokens withdrew from exchange are not shown in imToken for a long time after the transaction",
+  "recommended_reading_link_3": "https://support.token.im/hc/en-us/articles/115000983973/?utm_source=imtoken-support&utm_medium=email&utm_campaign=auto-reply",
+  "recommended_reading_title_3": "• How to import mnemonic?",
+  "recommended_reading_link_4": "",
+  "recommended_reading_title_4": "",
+  "best_regards": "Best regards,",
+  "imtoken_team": "imToken Team",
+  "download_imtoken": "Download imToken: "
+}

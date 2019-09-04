@@ -53,7 +53,9 @@ gulp.task('hbs', function () {
 
 gulp.task('html', function () {
   gulp.src([dirs.dest + '/*.hbs'])
-    .pipe(inlineCss())
+    .pipe(inlineCss({
+      removeStyleTags: false,
+    }))
     .pipe(rename(function (path) {
       path.extname = ".html"
     }))

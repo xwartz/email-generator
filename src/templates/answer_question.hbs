@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+{{> head}}
+
+<body>
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background: #F5F5F5; padding: 30px 10px;">
+    <tr>
+      <td>
+        <table align="center" border="0" cellpadding="0" cellspacing="0" width="700" style="background: #fff; border: 0.8px solid #D2D2D2;">
+          <tr>
+            <td>
+              <table border="0" cellpadding="0" cellspacing="0" class="im_table">
+                <tr>
+                  <td style="padding-top: 50px;">
+                    <div>
+                      <span class="im_text">{{hello}}</span>
+                    </div>
+
+                    <div class="im_section_t">
+                      <span class="im_text">{{answer_simple_question}}</span>
+                    </div>
+
+                    <div class="im_rating_section">
+                      {{rating_section}}
+                    </div>
+
+                    {{#if thanks_for_your_support}}
+                    <div class="im_section_b">
+                      <span class="im_text">{{thanks_for_your_support}}</span>
+                    </div>
+                    {{/if}}
+
+                    <div>
+                      <span class="im_text">{{reminder_ticket}}</span>
+                    </div>
+
+                    <div class="im_comments_formatted">
+                      {{comments_formatted}}
+                    </div>
+
+                    <div class="im_section">
+                      <div>
+                        <span class="im_text">{{best_regards}}</span>
+                      </div>
+                      <div>
+                        <span class="im_text">{{imtoken_team}}</span>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              {{> footer}}
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

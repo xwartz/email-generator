@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+{{> head}}
+<body>
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background: #F5F5F5; padding: 30px 10px;">
+    <tr>
+      <td>
+        <table align="center" border="0" cellpadding="0" cellspacing="0" width="700" style="background: #fff; border: 0.8px solid #D2D2D2;">
+          <tr>
+            <td>
+              <table border="0" cellpadding="0" cellspacing="0" class="im_table">
+                <tr>
+                  <td>
+                    <div class="im_header">
+                      <span class="im_title">{{thank_you_reaching_us}}</span>
+                    </div>
+                    <div>
+                      <span class="im_text">
+                        {{will_give_you_a_reply}}
+                      </span>
+                    </div>
+
+                    <div class="im_section">
+                      <div><a target="_blank" href="{{recommended_reading_link_1}}">{{recommended_reading_title_1}}</a></div>
+                      <div><a target="_blank" href="{{recommended_reading_link_2}}">{{recommended_reading_title_2}}</a></div>
+                      <div><a target="_blank" href="{{recommended_reading_link_3}}">{{recommended_reading_title_3}}</a></div>
+                      <div><a target="_blank" href="{{recommended_reading_link_4}}">{{recommended_reading_title_4}}</a></div>
+                    </div>
+
+                    {{#if zh}}
+                    <div class="im_text">
+                      或者前往 <a target="_blank" href="https://imtoken.fans">imToken Fans</a> 论坛咨询更多热心用户。
+                    </div>
+                    {{/if}}
+
+                    <div class="im_section">
+                      <div>
+                        <span class="im_text">{{best_regards}}</span>
+                      </div>
+                      <div>
+                        <span class="im_text">{{imtoken_team}}</span>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              {{> footer}}
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

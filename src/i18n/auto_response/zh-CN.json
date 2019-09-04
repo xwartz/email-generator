@@ -1,0 +1,18 @@
+{
+  "zh": true,
+  "lang": "zh-CN",
+  "email_title": "工单自动回复",
+  "thank_you_reaching_us": "我们会保持联系。",
+  "will_give_you_a_reply": "imToken 已经收到了你提交的反馈邮件，我们会在 24 小时内尽快答复。在等待过程中，可查看以下这些文章，对你可能有所帮助：",
+  "recommended_reading_link_1": "https://support.token.im/hc/zh-cn/articles/115000906314/?utm_source=imtoken-support&utm_medium=email&utm_campaign=auto-reply",
+  "recommended_reading_title_1": "• 交易所提币到 imToken 长时间未到账怎么办",
+  "recommended_reading_link_2": "https://support.token.im/hc/zh-cn/articles/360003123953/?utm_source=imtoken-support&utm_medium=email&utm_campaign=auto-reply",
+  "recommended_reading_title_2": "• 如何修改钱包密码",
+  "recommended_reading_link_3": "https://support.token.im/hc/zh-cn/articles/360003124553/?utm_source=imtoken-support&utm_medium=email&utm_campaign=auto-reply",
+  "recommended_reading_title_3": "• 如何使用以太坊区块浏览器 Etherscan",
+  "recommended_reading_link_4": "https://support.token.im/hc/zh-cn/articles/360013035293/?utm_source=imtoken-support&utm_medium=email&utm_campaign=auto-reply",
+  "recommended_reading_title_4": "• 如何一键迁移至 imToken 2.0",
+  "best_regards": "此致",
+  "imtoken_team": "imToken 用户支持团队",
+  "download_imtoken": "下载最新版 imToken: "
+}

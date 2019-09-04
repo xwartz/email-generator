@@ -1,0 +1,12 @@
+{
+  "email_title": "How would you rate the support you received?",
+  "hello": "Hello,",
+  "answer_simple_question": "We'd love to hear what you think of our customer service. Please take a moment to answer one simple question by clicking either link below:",
+  "thanks_for_your_support": "",
+  "reminder_ticket": "Here's a reminder of what your ticket was about:",
+  "best_regards": "Best regards,",
+  "imtoken_team": "imToken Team",
+  "download_imtoken": "Download imToken: ",
+  "rating_section": "{{satisfaction.rating_section}}",
+  "comments_formatted": "{{ticket.comments_formatted}}"
+}

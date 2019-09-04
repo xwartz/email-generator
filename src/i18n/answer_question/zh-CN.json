@@ -1,0 +1,12 @@
+{
+  "email_title": "在区块链世界里与你同行",
+  "hello": "你好，",
+  "answer_simple_question": "您怎么看我们的用户服务？让我们听到你的声音：",
+  "thanks_for_your_support": "欢迎在以上链接中给我们提供意见或建议，感谢你的支持。",
+  "reminder_ticket": "以下是我们的互动：",
+  "best_regards": "此致",
+  "imtoken_team": "imToken 用户支持团队",
+  "download_imtoken": "下载最新版 imToken: ",
+  "rating_section": "{{satisfaction.rating_section}}",
+  "comments_formatted": "{{ticket.comments_formatted}}"
+}
