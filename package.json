@@ -4,7 +4,9 @@
   "description": "A tool to generate html email.",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "gulp clean",
+    "watch": "gulp watch",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,26 @@
   "bugs": {
     "url": "https://github.com/xwartz/email-generator/issues"
   },
-  "homepage": "https://github.com/xwartz/email-generator#readme"
+  "homepage": "https://github.com/xwartz/email-generator#readme",
+  "devDependencies": {
+    "del": "~2.0.2",
+    "event-stream": "^4.0.1",
+    "gulp": "~3.8.7",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-compass": "~2.1.0",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-concat": "~2.6.0",
+    "gulp-data": "~1.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-inline-css": "^3.0.0",
+    "gulp-notify": "~2.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-shell": "~0.5.1"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 5%",
+    "not dead"
+  ]
 }
