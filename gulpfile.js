@@ -47,11 +47,12 @@ const genHbs = function (lang) {
     .pipe(gulp.dest(dirs.dest))
 }
 
-gulp.task('hbs', function () {
+gulp.task('hbs', function (done) {
   es.merge(langs.map(genHbs))
+  done()
 })
 
-gulp.task('html', function () {
+gulp.task('html', function (done) {
   gulp.src([dirs.dest + '/*.hbs'])
     .pipe(inlineCss({
       removeStyleTags: false,
@@ -62,9 +63,10 @@ gulp.task('html', function () {
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest(dirs.build))
     .pipe(notify('build successful'))
+    done()
 })
 
-gulp.task('styles', function () {
+gulp.task('styles', function (done) {
   gulp.src([dirs.styles + '/**/*.scss'], {
     base: dirs.styles,
   })
@@ -75,16 +77,18 @@ gulp.task('styles', function () {
   }))
   .pipe(autoprefixer())
   .pipe(gulp.dest(dirs.dest))
+  done()
 })
 
-gulp.task('clean', function () {
+gulp.task('clean', function (done) {
   del([dirs.dest, dirs.build], {
     force: true
   })
+  done()
 })
 
 gulp.task('watch', function () {
-  gulp.watch([dirs.src + '/**/*'], ['build'])
+  gulp.watch([dirs.src + '/**/*'], gulp.parallel('build'))
 })
 
 gulp.task('build', shell.task([
