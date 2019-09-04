@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/xwartz/email-generator#readme",
   "devDependencies": {
-    "del": "~2.0.2",
+    "del": "^5.1.0",
     "event-stream": "^4.0.1",
     "gulp": "~3.8.7",
     "gulp-autoprefixer": "^7.0.0",
